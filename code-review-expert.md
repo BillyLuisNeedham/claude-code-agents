@@ -1,5 +1,5 @@
 ---
-name: code-review
+name: code-review-expert
 description: Use this agent for comprehensive code reviews focusing on security, performance, and maintainability. Examples: <example>Context: Developer has submitted a pull request with API endpoint changes. user: 'I've updated our user profile endpoint to include new fields and caching' assistant: 'Let me use the code-review agent to examine these changes for security implications and performance considerations' <commentary>Since this involves API changes that could affect security and performance, the code-review agent will analyze the implementation thoroughly.</commentary></example> <example>Context: Team member has refactored a critical payment processing module. user: 'I've refactored our payment handler to use async/await instead of callbacks' assistant: 'I'll use the code-review agent to review this refactoring for potential race conditions and error handling' <commentary>Payment processing is critical infrastructure, so the code-review agent should carefully examine the async refactoring for correctness.</commentary></example>
 model: opus
 color: red

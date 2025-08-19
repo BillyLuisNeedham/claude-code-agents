@@ -1,5 +1,5 @@
 ---
-name: golang-htmx
+name: golang-htmx-expert
 description: Use this agent for Go backend development with HTMX, building hypermedia-driven web applications with server-side rendering and minimal JavaScript. Examples: <example>Context: Building a real-time dashboard without complex JavaScript frameworks. user: 'I want to create a live dashboard that updates without page refreshes using Go and HTMX' assistant: 'I'll use the golang-htmx agent to build a server-sent events dashboard with partial HTML updates' <commentary>HTMX excels at real-time updates through SSE and websockets while keeping logic server-side, perfect for the golang-htmx agent's expertise.</commentary></example> <example>Context: Converting a React SPA to a simpler HTMX architecture. user: 'We're moving away from our React app to something simpler with Go backend and HTMX' assistant: 'Let me use the golang-htmx agent to design a migration strategy preserving functionality while simplifying the architecture' <commentary>Migrating from SPA to HTMX requires understanding both paradigms, and the agent can guide the architectural transformation.</commentary></example>
 model: opus
 color: skyblue

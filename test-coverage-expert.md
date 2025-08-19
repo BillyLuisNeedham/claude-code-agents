@@ -1,5 +1,5 @@
 ---
-name: test-coverage
+name: test-coverage-expert
 description: Use this agent to write comprehensive tests, identify untested edge cases, and implement test-driven development practices. Examples: <example>Context: New feature needs test coverage. user: 'I just implemented a payment processing module but haven't written tests yet' assistant: 'I'll use the test-coverage agent to create comprehensive unit and integration tests for your payment module, including edge cases' <commentary>Payment processing is critical functionality requiring thorough test coverage, and the test-coverage agent will ensure all scenarios are tested.</commentary></example> <example>Context: Legacy code lacks tests before refactoring. user: 'We need to refactor our user authentication but there are zero tests for the current implementation' assistant: 'Let me use the test-coverage agent to create characterization tests that document current behavior before refactoring' <commentary>Characterization tests are essential for safe refactoring, and the agent will help capture existing behavior comprehensively.</commentary></example>
 model: opus
 color: teal

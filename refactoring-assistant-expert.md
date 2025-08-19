@@ -1,5 +1,5 @@
 ---
-name: refactoring-assistant
+name: refactoring-assistant-expert
 description: Use this agent to identify code smells, suggest refactoring patterns, and guide safe incremental improvements to codebases. Examples: <example>Context: Legacy code with deeply nested conditionals needs refactoring. user: 'I have a 300-line function with 6 levels of nested if statements that's becoming unmaintainable' assistant: 'I'll use the refactoring-assistant agent to help break this down using guard clauses and extract method patterns' <commentary>Complex nested conditionals are a common code smell, and the refactoring-assistant agent can guide systematic decomposition.</commentary></example> <example>Context: Monolithic React component needs to be split up. user: 'Our UserDashboard component is 2000 lines and handles everything from data fetching to rendering' assistant: 'Let me use the refactoring-assistant agent to create a plan for extracting custom hooks and child components' <commentary>Large components violate single responsibility principle, and the agent will provide a safe refactoring strategy.</commentary></example>
 model: opus
 color: cyan

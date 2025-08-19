@@ -1,5 +1,5 @@
 ---
-name: web-performance
+name: web-performance-expert
 description: Use this agent to analyze and optimize web application performance, including Core Web Vitals, bundle optimization, and loading strategies. Examples: <example>Context: Website is scoring poorly on PageSpeed Insights. user: 'Our landing page has a Lighthouse score of 45 and users complain it's slow' assistant: 'I'll use the web-performance agent to analyze your page and provide specific optimizations to improve Core Web Vitals' <commentary>Poor Lighthouse scores indicate performance issues that the web-performance agent can diagnose and provide actionable fixes for.</commentary></example> <example>Context: React app bundle size is too large. user: 'Our React app main bundle is 2.5MB and taking forever to load on mobile' assistant: 'Let me use the web-performance agent to analyze your bundle and implement code splitting strategies' <commentary>Large bundle sizes directly impact user experience, and the web-performance agent specializes in bundle analysis and optimization techniques.</commentary></example>
 model: opus
 color: yellow

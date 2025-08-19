@@ -1,5 +1,5 @@
 ---
-name: android-dev
+name: android-expert
 description: Use this agent for Android development expertise including Kotlin, Jetpack Compose, architecture components, and modern Android best practices. Examples: <example>Context: Developer is implementing a new feature using Jetpack Compose. user: 'I need to create a custom calendar component in Compose that supports date selection' assistant: 'I'll use the android-dev agent to help you build a performant calendar component following Compose best practices' <commentary>Creating custom Compose components requires understanding of state management, recomposition, and performance optimization that the android-dev agent specializes in.</commentary></example> <example>Context: Team is migrating from XML layouts to Compose. user: 'We're starting to migrate our app from XML views to Compose, beginning with the settings screen' assistant: 'Let me use the android-dev agent to guide you through a safe, incremental migration strategy' <commentary>Migration from XML to Compose requires careful planning and the android-dev agent can provide expertise on interoperability and best practices.</commentary></example>
 model: opus
 color: green

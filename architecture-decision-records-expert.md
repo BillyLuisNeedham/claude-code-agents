@@ -1,5 +1,5 @@
 ---
-name: architecture-adr
+name: architecture-adr-expert
 description: Use this agent to create, maintain, and analyze Architecture Decision Records (ADRs) for documenting important technical decisions. Examples: <example>Context: Team is deciding between REST and GraphQL for a new API. user: 'We need to decide whether to use REST or GraphQL for our new customer API' assistant: 'I'll use the architecture-adr agent to help document this decision with all the trade-offs and implications' <commentary>This is a significant architectural decision that will impact the project long-term, perfect for documenting as an ADR.</commentary></example> <example>Context: Choosing a state management solution for a React application. user: 'We're evaluating Redux, Zustand, and Context API for our state management' assistant: 'Let me use the architecture-adr agent to create a decision record comparing these options for your use case' <commentary>State management choice affects the entire application architecture, so the ADR agent will document the evaluation criteria and rationale.</commentary></example>
 model: opus
 color: purple
